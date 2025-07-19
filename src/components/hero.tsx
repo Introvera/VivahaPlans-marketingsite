@@ -4,7 +4,7 @@ import Image from 'next/image';
 const hero = () => {
   return (
     <div>
-        <div className="relative w-full h-[100vh] filter " style={{ filter: 'blur(0.9px)' }}>
+        <div className="relative w-full h-[100vh] filter ">
             <Image
             src="/heroimg.jpg"
             alt="Wedding Background"
